@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello sound</title>
+    <title>Jorge Mendonça</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="container">
+        <h1 >Jorge Mendonça </h1>
+    </header>
+  
+    <section class="card">
+
+        <div class="card-inner">
+            <h2 class="card-animated">Sobre Mim</h2>
+            <p>Olá! Sou um desenvolvedor júnior com experiência em Java, JavaScript e SQL Server. Sou entusiasta por codificação e tecnologia e me dedico constantemente para crescer na área de desenvolvimento de software.</p>
+            
+            <h2 class="card-animated">Habilidades</h2>
+            <ul >
+              <li>Desenvolvimento em Java</li>
+              <li>Consulta e manipulação de banco de dados com SQL Server</li>
+              <li>Conhecimentos em HTML, CSS e JavaScript</li>
+              <li>Resolução de problemas e depuração de código</li>
+              <li>Trabalho em equipe e colaboração</li>
+            </ul>
+            
+            <h2 class="card-animated">Contato</h2>
+            <p>Linkedin: 
+                <a href="https://www.linkedin.com/in/mdsjjorge/">linkedin/mdsjjorge</a>
+            </p>
+            <p>Github: 
+                <a href="https://github.com/mdsjjorge">github/mdsjjorge</a>
+            </p>
+        </div>
+    </section>
+
     <div>
-        <h1> hello sound </h1>
+        <p class="overlay"> exemplo introdutorio para aprendizado de docker; </p>
     </div>
+    
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+        var overlay = document.querySelector('.overlay');
+        setTimeout(function() {
+            overlay.parentNode.removeChild(overlay);
+        }, 4000);
+        });
+    </script>
 </body>
 </html>
 
